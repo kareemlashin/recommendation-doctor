@@ -119,7 +119,7 @@ body {
       }
       .logo
       {
-           width: 20%;
+           width: 40%;
            float: right;
       }
  }
@@ -332,3 +332,35 @@ p{
           padding-left: 13px;
      }
 }
+.head-page
+{
+     @media (min-width: 992px){
+     .container {
+         max-width: 580px;
+     }}
+     @media (min-width: 769px)and(max-width: 1024px){
+           .container {
+              max-width: 480px;
+          }}
+          .logo
+         {
+              width: 65%;
+         }
+         @media (min-width: 767px)and(max-width: 768px){
+          .container {
+               max-width: 550px;
+           }
+        }
+}
+@media (max-width: 1024px) and (min-width: 769px)
+{.head-page h2 {
+    font-size: 25px !important;
+}}
+
+@media (min-width: 767px)and(max-width: 768px){
+     .col-md-6{
+          -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+     }
+   }
