@@ -1,5 +1,5 @@
 $main:#309EAC;
-$secondColor:#f8f8f8;
+$secondColor:#fff;
 *{font-family: 'Cairo', sans-serif;
 }
 body {
@@ -110,9 +110,12 @@ body {
  {
       background-color: #fff !important;
       overflow: hidden;
+      h2 {
+          font-size: 1.7rem;
+      }
       .Recommendation
       {
-           font-weight: 700;
+           font-weight: 600;
       }
       .logo
       {
@@ -120,21 +123,7 @@ body {
            float: right;
       }
  }
- @media(max-width:700px)
- {
-     .head-page
-     {
-          .Recommendation
-          {
-               font-weight: 700;
-               font-size:20px ;
-          }
-          .logo
-          {
-               width: 45%;
-          }
-     }
-}
+ 
  .bg-use
  {
       background-color: #eee;
@@ -155,7 +144,7 @@ body {
 }
 .img-dr
 {
-     width:70%;
+     width:65%;
 }
 
  .description-name
@@ -168,10 +157,20 @@ body {
       {
           font-weight: 500;
           font-size:17px ;
+          color:  #989898 !important;
+
       }
+ }
+ *{
+     color: #6E6E6E;
+
+ }
+ i{
+      color: #000000;
  }
  .time-dr
  {
+      color:  #6E6E6E !important;
       position: absolute;
       bottom: 2%;
       right: 20px;
@@ -186,6 +185,7 @@ body {
            span{
                 font-weight: 700;
                 font-size: 14px;
+                color: #6E6E6E;
                 font-family: 'Cairo', sans-serif;
                }
 
@@ -196,32 +196,17 @@ body {
       font-size: 16px;
       font-weight: 600;
  }
-@media(min-width:767px)and(max-width:768px)
-{ .padding-ipad
-     {
-          padding-top:16px  !important;
-          padding-bottom: 16px !important; 
-     }
-     .img-dr {
-          width: 88%;
-      }
-}
 
-@media(min-width:769px)and(max-width:1024px)
-{ .padding-ipad
-     {
-          padding-top:8px  !important;
-          padding-bottom: 8px !important; 
-     }
-     .img-dr {
-          width: 80%;
-      }
-}
 .rays
 {
      h6{
-          font-weight: 700;
+          font-weight: 500;
           font-size: 15px;
+     }
+     h5{
+          color: #000;
+          font-weight: 550;
+
      }
 }
 .Diagnosis
@@ -257,5 +242,93 @@ p{
      h6{
           font-weight: 700;
           font-size: 19px;
+     }
+}
+
+@media(max-width:700px)
+{
+     .img-dr
+     {
+          width:80%;
+     }
+   
+     .patient-desc
+     {
+          ul{
+               li{
+                    span{
+                    font-size: 12px !important;
+               }}
+          }
+     }
+}
+.dr-descrip
+{
+     .col-9{
+          padding-left: 0px !important;
+     }
+     .col-3{
+          padding-right: 5px !important;
+     }
+}
+
+@media(max-width:700px)
+ {
+     .head-page
+     {
+          .Recommendation
+          {
+               font-weight: 700;
+               font-size:20px ;
+          }
+          .logo
+          {
+               width: 70%;
+          }
+     }
+}
+@media(min-width:767px)and(max-width:768px)
+{
+    .head-page
+    {
+     h2 {
+          font-size: 2rem;
+      }
+           
+         .logo
+         {
+              width: 45%;
+         }
+    }
+}
+@media(min-width:769px)and(max-width:1024px)
+{
+    .head-page
+    { h2 {
+     font-size: 48px !important;
+ }
+        
+         .logo
+         {
+              width: 45%;
+         }
+    }
+}
+.font-32{
+     font-size: 20px !important;
+     font-weight: 700;
+}
+.font-22{
+     font-size: 16px !important;
+     font-weight: 700;
+}
+.font-15{
+     font-size: 15px !important;
+}
+.patient-desc
+{
+     .col-6{
+          padding-right: 11px;
+          padding-left: 13px;
      }
 }
