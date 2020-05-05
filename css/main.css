@@ -3,8 +3,8 @@
 }
 
 body {
+  font-family: 'Cairo', sans-serif;
   background-color: #f8f8f8;
-  overflow: hidden;
 }
 
 .box-shadow {
@@ -124,10 +124,10 @@ body {
 @media (max-width: 700px) {
   .head-page .Recommendation {
     font-weight: 700;
-    font-size: 23px;
+    font-size: 20px;
   }
   .head-page .logo {
-    width: 80%;
+    width: 45%;
   }
 }
 
@@ -153,4 +153,99 @@ body {
 
 .img-dr {
   width: 70%;
+}
+
+.description-name .name-dr {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.description-name .catgry {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.time-dr {
+  position: absolute;
+  bottom: 2%;
+  right: 20px;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none;
+}
+
+ul li span {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.patient {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (min-width: 767px) and (max-width: 768px) {
+  .padding-ipad {
+    padding-top: 16px  !important;
+    padding-bottom: 16px !important;
+  }
+  .img-dr {
+    width: 88%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .padding-ipad {
+    padding-top: 8px  !important;
+    padding-bottom: 8px !important;
+  }
+  .img-dr {
+    width: 80%;
+  }
+}
+
+.rays h6 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.Diagnosis h6 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.Diagnosis p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.name-medical {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.name-medical span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.time-medical {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.time-medical span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.prescreption h6 {
+  font-weight: 700;
+  font-size: 19px;
 }
