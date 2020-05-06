@@ -146,7 +146,8 @@ body {
 }
 
 .img-dr {
-  width: 65%;
+  width: 70px;
+  height: 70px;
 }
 
 .description-name .name-dr {
@@ -242,7 +243,8 @@ ul li span {
 
 @media (max-width: 700px) {
   .img-dr {
-    width: 80%;
+    width: 60px;
+    height: 60px;
   }
   .patient-desc ul li span {
     font-size: 12px !important;
@@ -283,6 +285,11 @@ ul li span {
   .head-page .logo {
     width: 45%;
   }
+  .img-dr {
+     width: 60px;
+     height: 60px;
+   }
+   
 }
 
 .font-32 {
@@ -337,5 +344,82 @@ ul li span {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
+  }
+}
+
+.col-3 {
+  -ms-flex: 0 0 19%;
+  flex: 0 0 19%;
+  max-width: 19%;
+}
+
+.col-9 {
+  -ms-flex: 0 0 81%;
+  flex: 0 0 81%;
+  max-width: 81%;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .col-3 {
+    -ms-flex: 0 0 19%;
+    flex: 0 0 19%;
+    max-width: 19%;
+  }
+  .col-9 {
+    -ms-flex: 0 0 81%;
+    flex: 0 0 81%;
+    max-width: 81%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 768px) {
+  .col-3 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .col-9 {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 413px) and (max-width: 700px) {
+  .col-3 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .col-9 {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 412px) {
+  .col-3 {
+    -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
+  }
+  .col-9 {
+    -ms-flex: 0 0 77%;
+    flex: 0 0 77%;
+    max-width: 77%;
+  }
+  .img-dr {
+    height: 55px;
+    width: 55px;
+  }
+  .description-name .name-dr {
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .description-name .catgry {
+    font-weight: 500;
+    font-size: 14px;
+    color: #989898 !important;
   }
 }

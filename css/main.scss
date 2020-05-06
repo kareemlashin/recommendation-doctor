@@ -144,7 +144,8 @@ body {
 }
 .img-dr
 {
-     width:65%;
+     width:60px;
+     height:60px;
 }
 
  .description-name
@@ -249,8 +250,9 @@ p{
 {
      .img-dr
      {
-          width:80%;
-     }
+          width:60px;
+          height:60px;
+          }
    
      .patient-desc
      {
@@ -364,3 +366,82 @@ p{
     max-width: 75%;
      }
    }
+.col-3{
+-ms-flex: 0 0 19%;
+flex: 0 0 19%;
+max-width: 19%;
+}
+.col-9 {
+     -ms-flex: 0 0 81%;
+     flex: 0 0 81%;
+     max-width: 81%;
+ }
+   @media (max-width: 1024px) and (min-width: 769px)
+{
+     .col-3{
+          -ms-flex: 0 0 19%;
+    flex: 0 0 19%;
+    max-width: 19%;
+     }
+     .col-9 {
+          -ms-flex: 0 0 81%;
+          flex: 0 0 81%;
+          max-width: 81%;
+      }
+}
+
+@media (min-width: 767px)and(max-width: 768px){
+     .col-3{
+          -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+     }
+     .col-9 {
+          -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
+          max-width: 80%;
+      }
+   }
+   @media (min-width: 322px)and(max-width: 700px){
+     .col-3{
+          -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+     }
+     .col-9 {
+          -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
+          max-width: 80%;
+      }
+   }
+
+   @media (max-width: 320px){
+     .col-3{
+          -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
+     }
+     .col-9 {
+          -ms-flex: 0 0 77%;
+          flex: 0 0 77%;
+          max-width: 77%;
+      }
+     .img-dr{
+          height: 45px;
+          width: 45px;
+     }
+     
+   .description-name  {
+     .name-dr{
+     font-weight: 800;
+     font-size: 18px;
+ }
+ .catgry {
+     font-weight: 500;
+     font-size: 14px;
+     color: #989898 !important;
+ }
+}
+}
+        
+
